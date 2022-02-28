@@ -1,0 +1,88 @@
+@media only screen and (max-width: 767px){
+    #conteudo{     /* div com o conteudo do menu */
+        float: none;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: baseline;
+        gap: 30px;
+        margin-right: 30px;
+    }
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{      /* div com o bloco que tem o titulo */
+    float: left;
+    padding: 20px;
+}
+#titulo{   /* nome do site */
+    display: inline;
+   margin-top: 50px;
+   color: #D2872C;
+
+}
+
+.menu{      /* conteudo do menu */
+    float: right;
+    color: #766f68;
+    padding: 20px;
+}
+
+#conteudo{     /* div com o conteudo do menu */
+    float: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+#foto{
+    width: 600px;
+    height: 400px;
+    background: url(./team.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: 120px;
+}
+
+#corpo{    /* div com h1 e h2 */
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: #766f68;
+    margin-left: 250px;
+
+}
+
+#inicio{    /* h1 */
+    font-size: 50px;
+
+}
+
+#subtitulo{    /* h2 */
+    color: #766f68;
+    font-size:20px;
+
+}
+
+
+#start{     /* botao start */
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+    border-style: none;
+    background-color: #D2872C;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    margin-left: 250px;
+    margin-top: 100px;
+
+
+}
